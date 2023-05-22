@@ -34,14 +34,15 @@
     * 중앙배치 하고 싶은 곳을[h1]칸에 적어  바꾸면 됨 
 ## 웹페이지 움직이는 배너 만들기 
     <div class="slider"></div> : div를 "sider"로 이름 변경
-<br></br>
+
     <input type="radio" name="slide" id="slide1" checked>
     <input type="radio" name="slide" id="slide2"> : 라디오 버튼 영역 생성 *원하는 사진 수까지 id에 slide숫자 숫자 늘리면서 적어주면 됨 * name = 여러 옵션의 공통으로 부여해주는 이름
-<br></br>
+
     <ul id="imgholder" class="imgs">밑에 코딩내용</ul> : 각 순서마다 적용할 이미지 할량
     <li><img src="이미지링크"></li> : 첫 번째에 들어갈 이미지
     <li><img src="이미지링크"></li> : 두 번째에 들어갈 이미지 *이하 원하는 수만큼 반복
     <div class="bullets"></div> : 순서 넘기는 버튼이 될 코딩 할량 
+    
     <label for="slide1">&nbsp;</label> : 첫 번째 클릭 시 첫 번째 이미지 배너 보임 
     <label for="slide2">&nbsp;</label> : 두 번째 클릭 시 두 번째 이미지 배너 보임 *이하 코딩 넣은 사진 수만큼 반복
 <img src="./banner.png" width="350px" hight="250px">    
