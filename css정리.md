@@ -57,7 +57,6 @@
 <img width="250" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/9497c988-77c2-4dc4-98b6-65f8eca4b976">
 
  ## 움직이는 배너 설정
-    * 앞서 html에서 name을 slider로 설정
     .slider{ width: 숫자px;
              height: 숫자px;       : 사진 크기 설정
              position: relative;   : 요소를 원래 위치에서 벗어나 배치 할 수 있게 설정
@@ -72,4 +71,4 @@
               bottom: 숫자px;                : 바닥과 숫자px만큼 떨어지게 설정
               z-index: 2;}                   : 요소의 수직 위치 정하는 설정 
               
-<img width="135" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/f98cc6b2-1dbc-4092-91ec-78086b83058a">
+<img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/f98cc6b2-1dbc-4092-91ec-78086b83058a">
