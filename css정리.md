@@ -56,6 +56,19 @@
 
 <img width="250" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/9497c988-77c2-4dc4-98b6-65f8eca4b976">
 
- 
-    
- 
+## 움직이는 배너 설정
+   .slider{ width: 숫자px;
+            height: 숫자px;       : 사진 크기 설정
+            position: relative;   : 요소를 원래 위치에서 벗어나 배치 할 수 있게 설정
+            margin: 0 auto;       : 0으로 양쪽 다 균일하게 배열
+            overflow: hidden;}    : html 요소 밖으로 삐져나오는 컨텐츠를 숨김 설정
+            
+   .slider input[type=radio]{display: none;} : 요소를 보이지 않게 설정
+  ul.imgs{padding: 0; margin: 0; list-style: none;} : 이미지들 설정 후 점과 숫자 없애기
+    .bullets{ position: absolute;          : 브라우저 화면 상에 어디든지 원하는 위치에 자유롭게 배치 가능하게 설정
+              left: 50%;                   
+              transform: translateX(숫자%);  : 요소의 표시 위치를 원하는 "숫자"만큼 이동 시
+              bottom: 숫자px;                : 바닥과 숫자px만큼 떨어지게 설정
+              z-index: 2;}                   : 요소의 수직 위치 정하는 설정 
+              
+<img width="135" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/f98cc6b2-1dbc-4092-91ec-78086b83058a">
