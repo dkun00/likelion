@@ -25,7 +25,7 @@
     <br></br>     : 내용 사이에 줄 띄우기 
     <b></b>       : 내용 강조하기(짙은 검은색으로 써짐)
     <hr>          : 다음 내용 위에 줄글 긋기
-<img src="./hr.png" width="350px" hight="250px">    
+<img src="./hr.png" width="550px" hight="250px">    
 
 
 
@@ -48,7 +48,7 @@
     
     <label for="slide1">&nbsp;</label> : 첫 번째 클릭 시 첫 번째 이미지 배너 보이도록 부여 
     <label for="slide2">&nbsp;</label> : 두 번째 클릭 시 두 번째 이미지 배너 보이도록 부여 *이하 코딩 넣은 사진 수만큼 반복
-<img src="./banner.png" width="350px" hight="250px">    
+<img src="./banner.png" width="250px" hight="250px">    
 
 ## 웹페이지 목록 생성
     <ol><li>목록</li></ol> : 1. 목록 순으로 생성 *(1,2,3, 순서대)
