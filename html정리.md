@@ -56,7 +56,7 @@
     <ol start="5"><li>목록</li></ol> : 5. 목록 순으로 생성 *(특정숫자부터 순서대로 )
     <ul><li>목록<li></ul> : ⦁ 목록으로 생성
     
-<img src="./li.png" width="350px" hight="250px">    
+<img src="./li.png" width="250px" hight="250px">    
     
 ## 이미지 추가
     <img src="이미지링크"> : 이미지 삽입됨
