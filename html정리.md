@@ -25,7 +25,7 @@
     <br></br>     : 내용 사이에 줄 띄우기 
     <b></b>       : 내용 강조하기(짙은 검은색으로 써짐)
     <hr>          : 다음 내용 위에 줄글 긋기
-<img src="./hr.png" width="550px" hight="250px">    
+<img src="./hr.png" width="480px" hight="250px">    
 
 
 
