@@ -18,7 +18,7 @@
      div{ margin: 숫자px;} : 상하좌우에 모든 같은 값을 적용 시킴 
      div{ margin: 숫자1px 숫자2px;} : 숫자1 = 상하, 숫자2= 좌우의 값을 적용시킴 
      div{ margin: 숫자1px 숫자2px 숫자3px 숫자4px } : 숫자1 = 상, 숫자2= 우, 숫자3= 하, 숫자4 = 좌의 값을 적용시킴
-<img src="./img/box.png">
+<img src="./box.png">
 
 ### div 테두리(border) 설정  
     div{border: 숫자px solid 색상;}  : 숫자px 두께의 실선 "색상"이 생김 
