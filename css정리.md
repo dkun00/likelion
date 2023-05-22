@@ -52,8 +52,8 @@
  ## ul li 태그 가로로 배열
     ul{list-style: none;} : 목록 앞에 있는 기호들 제거 
     li{float: left;} : 가로로 정렬
-<img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/c3a5ef24-b089-4b01-8fc8-76791075b676">
->>
+<img width="180" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/f41dfe76-48f2-4106-b0a7-1b655c902092">
+
 <img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/9497c988-77c2-4dc4-98b6-65f8eca4b976">
 
  
