@@ -58,8 +58,8 @@
 
  ## 움직이는 배너 설정
     .slider{ width: 숫자px;
-            height: 숫자px;       : 사진 크기 설정
-            position: relative;   : 요소를 원래 위치에서 벗어나 배치 할 수 있게 설정
+             height: 숫자px;       : 사진 크기 설정
+             position: relative;   : 요소를 원래 위치에서 벗어나 배치 할 수 있게 설정
             margin: 0 auto;       : 0으로 양쪽 다 균일하게 배열
             overflow: hidden;}    : html 요소 밖으로 삐져나오는 컨텐츠를 숨김 설정
             
