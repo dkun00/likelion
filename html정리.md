@@ -43,8 +43,8 @@
     <li><img src="이미지링크"></li> : 두 번째에 들어갈 이미지 *이하 원하는 수만큼 반복
     <div class="bullets"></div> : 순서 넘기는 버튼이 될 코딩 할량 
     
-    <label for="slide1">&nbsp;</label> : 첫 번째 클릭 시 첫 번째 이미지 배너 보임 
-    <label for="slide2">&nbsp;</label> : 두 번째 클릭 시 두 번째 이미지 배너 보임 *이하 코딩 넣은 사진 수만큼 반복
+    <label for="slide1">&nbsp;</label> : 첫 번째 클릭 시 첫 번째 이미지 배너 보이도록 부여 
+    <label for="slide2">&nbsp;</label> : 두 번째 클릭 시 두 번째 이미지 배너 보이도록 부여 *이하 코딩 넣은 사진 수만큼 반복
 <img src="./banner.png" width="350px" hight="250px">    
 
 ## 웹페이지 목록 생성
