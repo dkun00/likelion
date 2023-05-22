@@ -1,0 +1,155 @@
+/*로고 코딩*/
+.logo{
+  text-align: center;
+}
+
+/*링크 색상 교체*/
+a {
+    text-decoration-line: none;
+  /*   text-decoration-line: underline; */
+  /*   text-decoration-line: overline; */
+  /*   text-decoration-line: line-through; */
+  /*   text-decoration-line: underline line-through overline; */
+
+  }
+  a:link {
+    color : black;
+  }
+  a:visited {
+    color : black;
+  }
+  a:hover {
+    color : gray;
+  }
+  .logo{
+    
+    font-size: 70px;
+    font-style: italic;
+    margin-left: 0px;
+  }
+/*장바구니,로그인*/
+.nav-btn{
+    list-style-type: none;
+    margin: 0%;
+}
+ul.nav-btn> li{
+    float: right;
+    margin-left: 25px;
+    font-size: 20px;
+    top: 30px;
+}
+.more{
+  font-size: 20px;
+}
+
+/*배너*/
+nav::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.header1{
+  font-size: 15px;
+ 
+}
+.slider{
+  width: 520px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden; 
+ 
+}
+.slider input[type=radio]{
+  display: none;
+}
+ul.imgs{
+  padding: 0;
+  margin: 0;
+  list-style: none;    
+}
+ul.imgs li{
+  position: absolute;
+  left: 640px;
+  transition-delay: 1s; /* 새 슬라이드가 이동해 오는 동안 이전 슬라이드 이미지가 배경이 보이도록 지연 */
+
+  padding: 0;
+  margin: 0;
+}
+.bullets{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 2;
+}
+.bullets label{
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.55);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+  background-color: #fff;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+  background-color: #fff;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+  background-color: #fff;
+}
+.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+  background-color: #fff;
+}
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+  left: 0;
+  transition: 0.5s;
+  z-index:1;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+  left: 0;
+  transition: 0.5s;
+  z-index:1;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+  left: 0;
+  transition: 0.5s;
+  z-index:1;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+  left: 0;
+  transition: 0.5s;
+  z-index:1;
+}
+
+
+/*제품 코딩*/
+.product-list{
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product{
+  width: 225px;
+  text-align: center;
+  display: block;
+  color: #545454;
+  text-decoration: none;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product-name{
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+/*더보기*/
+.more{
+  margin-left: 15px;
+}
