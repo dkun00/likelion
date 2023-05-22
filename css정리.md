@@ -27,5 +27,35 @@
     * div margin 설정의 상하좌우 형식과 동일
 ### div box에 적용된 사이즈 설정 
     div{box-sizing: content-box;} : 요소 사이즈에 패딩과 테두리 포함 x
-    div{box-sizing: bonrder-box;} : 요소 사이즈에 패딩과 테두리 포함 ㅇ 
+    div{box-sizing: bonrder-box;} : 요소 사이즈에 패딩과 테두리 포함 0 
+    
+### div 내용 설정
+    div{width: 숫자px;} : 총 너비 설정
+    div{margin-left: auto;   
+        margin-right: auto;} : 좌우 여백 균일하게 배포
+    div{margin-left: 숫자px;} : 숫자px만큼 왼쪽으로 가기    
+    div{margin-right: 숫자px;} : 숫자px만큼 오른쪽으로 가기 
+        
+    div{float: left;}  : 내용을 맨 왼쪽으로 설정
+    div{float: right;} : 내용을 맨 오른쪽으로 설정
+    
+## html에서 링크 연결 시 생기는 링크 효과 변경
+    a {text-decoration-line: none;} : html에서 링크 연결 시 생기는 밑줄 제거
+    a {text-decoration-line: underline;} : html에서 링크 연결 시 밑줄 생기게 설정 *기본값
+    a {text-decoration-line: overline;} : html에서 링크 연결 시 글씨 위에 줄글 생기게 설정
+    a {text-decoration-line: line-through;} : html에서 링크 연결 시 글씨 중간에 줄글 생기게 설정
+    
+    a:link{color: 색상;}    : 링크 연결 된 글씨 평소에 "색상"으로 적용
+    a:visited{color: 색상;} : 링크 연결 된 글씨 방문 시 "색상"으로 적용
+    a:hover{color: 색상;}   : 링크 연결 된 글씨 위에 마우스 시 "색상"으로 적용
+    
+ ## ul li 태그 가로로 배열
+    ul{list-style: none;} : 목록 앞에 있는 기호들 제거 
+    li{float: left;} : 가로로 정렬
+<img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/c3a5ef24-b089-4b01-8fc8-76791075b676">
+>>
+<img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/3f43aa69-de0c-482b-87e9-6e7127397f47">
+
+ 
+    
  
