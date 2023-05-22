@@ -54,7 +54,7 @@
     li{float: left;} : 가로로 정렬
 <img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/c3a5ef24-b089-4b01-8fc8-76791075b676">
 >>
-<img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/3f43aa69-de0c-482b-87e9-6e7127397f47">
+<img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/9497c988-77c2-4dc4-98b6-65f8eca4b976">
 
  
     
