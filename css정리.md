@@ -36,8 +36,8 @@
     div{margin-left: 숫자px;} : 숫자px만큼 왼쪽으로 가기    
     div{margin-right: 숫자px;} : 숫자px만큼 오른쪽으로 가기 
         
-    div{float: left;}  : 왼쪽을 채워 내용을 맨 오른쪽으로 밀어버리는 설정
-    div{float: right;} : 오른쪽을 채워 내용을 맨 왼쪽으로 밀어버리는 설정
+    div{float: left;}  : 왼쪽에 블록박스 넣어내용을 맨 오른쪽으로 밀어버리는 설정
+    div{float: right;} : 오른쪽에 블록박스 넣어 내용을 맨 왼쪽으로 밀어버리는 설정
     
 ## html에서 링크 연결 시 생기는 링크 효과 변경
     a {text-decoration-line: none;} : html에서 링크 연결 시 생기는 밑줄 제거
