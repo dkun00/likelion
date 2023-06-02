@@ -84,8 +84,38 @@
  ## FLex 
     부모 요소 = flex 컨테이너 
     자식 요소 = flex 아이템 
+    .container {display: flex;} : Flex 컨테이너에 flex 적용
+    
+    <메인축>
+	flex-direction: row; : 메인축의 방향이 가로 
+	flex-direction: column; 메인축의 방향이 세로 
+	flex-direction: row-reverse; : 메인 축의 방향이 가로인데 내용 순서가 c,b,a
+	flex-direction: column-reverse; : 메인 축의 방향이 세로인데 내용 순서가 c,b,a
+    
+    <내용이 삐져나갔을 때>
+	flex-wrap: nowrap; : 기본 값 
+    flex-wrap: wrap;   : 줄바꿈을 함 
+	flex-wrap: wrap-reverse;  : 줄바꿈을 하는데 내용 순서가 c,b,a
+    
+    <정렬>
+    flex-direction: row; : 메인축 방향으로 정렬 
+    flex-direction: wrap; : 수직축 방향으로 정렬 
+    
+    <메인축 방향 정렬> 
+    justify-content: flex-start; : 아이템들을 시작점으로 정렬 
+	justify-content: flex-end;   : 아이템들을 끝점으로 정렬 
+    justify-content: center;     : 아이템들을 가운데로 정렬 
+	justify-content: space-between; : 아이템들의 사이에 균일한 간격 만들어줌 
+    justify-content: space-around;  : 아이템들의 둘레에 균일한 간격 만들어줌
+	justify-content: space-evenly;  : 아이템들의 사이와 둘레에 균일한 간격 만들어줌 
+    
+    <수직축 방향 정렬> 
+    align-items: stretch;    : 아이템들이 수직축 방향까지 끝까지 쭉 늘어남(기본값)
+	align-items: flex-start; : 아이템들을 시작점으로 정렬 
+	align-items: flex-end;   : 아이템들을 끝으로 정렬 
+	align-items: center;     : 아이템들을 가운데로 정렬 
+	align-items: baseline;   : 아이템들을 텍스트 베이스라인 기준으로 정렬 
 ![image](https://github.com/dkun00/likelion/assets/130130329/36c38978-4363-4ed8-b1ca-9399b4b79fe8)
-    .container {display: flex;} : Flex 컨테이너에 flex 적용 
 ![image](https://github.com/dkun00/likelion/assets/130130329/39746fe9-184b-4bcf-a890-6ad161378618)
 
     
