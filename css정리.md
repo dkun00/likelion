@@ -178,4 +178,16 @@
 ![image](https://github.com/dkun00/likelion/assets/130130329/b1678f29-51b8-43f1-b9ec-fba25bd07821)
 ![image](https://github.com/dkun00/likelion/assets/130130329/059a9d74-1e88-461f-a702-af5c55a4d379)
 
+## 웹페이지 각 기기마다 설정 또는 반응형 
+   <각 기기마다 설정>
+   media 이용 
+   @media (min-width:200px) and (max-width:1000px) { font-size: 숫자px; } : 
+   화면의 너비가 최소200px, 최대 1000px일 때, 글자 크기 숫자px로 설정 
+   * 노트북 = 화면 너비가 0 ~ 960px 
+   * 타블렛 = 화면 너비가 577 ~ 768px
+   * 모바일 = 화면 너비가 0 ~ 576px
+   
+   <반응형>
+   $(window).width(); : 전체 브라우저 화면의 너비를 실시간으로 가져옴 
+   
 
