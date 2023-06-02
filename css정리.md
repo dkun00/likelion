@@ -73,7 +73,7 @@
               
 <img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/f98cc6b2-1dbc-4092-91ec-78086b83058a">
 
- ## Inline box 와 Block box 이차이
+ ## Inline box 와 Block box의 차이
     inline : 내가 쓴 내용까지만큼의 영역을 차지, margin과 padding만 적용 가능 
     block  : 페이지 한 줄 전체의 영역을 차지, 다 적용 가능(width,height,margin,padding)
     inline-block : inline과 block 특징을 모두 포함
