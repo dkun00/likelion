@@ -84,8 +84,8 @@
  ## FLex 
     부모 요소 = flex 컨테이너 
     자식 요소 = flex 아이템 
-    ![image](https://github.com/dkun00/likelion/assets/130130329/36c38978-4363-4ed8-b1ca-9399b4b79fe8)
+![image](https://github.com/dkun00/likelion/assets/130130329/36c38978-4363-4ed8-b1ca-9399b4b79fe8)
     .container {display: flex;} : Flex 컨테이너에 flex 적용 
-    ![image](https://github.com/dkun00/likelion/assets/130130329/39746fe9-184b-4bcf-a890-6ad161378618)
+![image](https://github.com/dkun00/likelion/assets/130130329/39746fe9-184b-4bcf-a890-6ad161378618)
 
     
