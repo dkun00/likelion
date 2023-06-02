@@ -72,3 +72,20 @@
               z-index: 2;}                   : 요소의 수직 위치 정하는 설정 
               
 <img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/f98cc6b2-1dbc-4092-91ec-78086b83058a">
+
+ ## Inline box VS Block box 
+    inline : 내가 쓴 내용까지만큼의 영역을 차지, margin과 padding만 적용 가능 
+    block  : 페이지 한 줄 전체의 영역을 차지, 다 적용 가능(width,height,margin,padding)
+    inline-block : inline과 block 특징을 모두 포함
+                   줄을 바꾸지 않는다, 상하 margin,padding이 레이아웃에 유효 + width와           height 가짐  
+    사용방법) .div{display: inline} : div 영역의 내용이 inline으로 변환 
+             .div{display: block} : div 영역의 내용이 block으로 변환 
+             
+ ## FLex 
+    부모 요소 = flex 컨테이너 
+    자식 요소 = flex 아이템 
+    ![image](https://github.com/dkun00/likelion/assets/130130329/36c38978-4363-4ed8-b1ca-9399b4b79fe8)
+    .container {display: flex;} : Flex 컨테이너에 flex 적용 
+    ![image](https://github.com/dkun00/likelion/assets/130130329/39746fe9-184b-4bcf-a890-6ad161378618)
+
+    
