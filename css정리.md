@@ -73,7 +73,7 @@
               
 <img width="200" alt="image" src="https://github.com/dkun00/likelion/assets/130130329/f98cc6b2-1dbc-4092-91ec-78086b83058a">
 
- ## Inline box VS Block box 
+ ## Inline box 와 Block box 이차이
     inline : 내가 쓴 내용까지만큼의 영역을 차지, margin과 padding만 적용 가능 
     block  : 페이지 한 줄 전체의 영역을 차지, 다 적용 가능(width,height,margin,padding)
     inline-block : inline과 block 특징을 모두 포함
@@ -81,9 +81,9 @@
     사용방법) .div{display: inline} : div 영역의 내용이 inline으로 변환 
              .div{display: block} : div 영역의 내용이 block으로 변환 
              
- ## FLex 
+ ## FLex 설정(한 방향 레이아웃 시스템 1차원)
     부모 요소 = flex 컨테이너 
-    자식 요소 = flex 아이템 
+    자식 요소 = flex 아이템이라고 부름 
     .container {display: flex;} : Flex 컨테이너에 flex 적용
     
     <메인축>
@@ -118,4 +118,64 @@
 ![image](https://github.com/dkun00/likelion/assets/130130329/36c38978-4363-4ed8-b1ca-9399b4b79fe8)
 ![image](https://github.com/dkun00/likelion/assets/130130329/39746fe9-184b-4bcf-a890-6ad161378618)
 
-    
+   ## Grid 설정(가로-세로 두 방향 레이아웃 시스템 2차원)
+      부모 요소 = Grid 컨테이너 
+      자식 요소 = Grid 아이템이라고 부름 
+      display: grid; : 컨테이너를 Grind로 설정 
+      
+      <컨테이너 영역에 grid 트랙 크키 설정>
+      grid-template-columns: 1fr 1fr 1fr; : 1:1:1로 트랙 크키 설정 
+      		      ex) 100px 2fr 1.5fr : 100px로 1:2:1.5로 트랙 크키 설정 
+      *mainmax 함수 
+      grid-template-rows: repeat(3, minmax(100px, auto)) : 내용이 아무리 적더라도 최소한 높이 100px은 확보하고(100px), 내용이 많아 넘어가면 알아서 늘어나도록 처리해줌(auto) 
+      
+     * auto-fill과 auto-fit
+       auto-fill : 셀의 개수가 설정해둔 것보다 모자르면 공간이 남음 
+       auto-fit  : 모자르더라도 남은 공간을 채움 
+      
+      <셀 사이 간격 설정> 
+      row-gap: 숫자px;    : row의 간격을 숫자px로 
+      column-gap: 숫자px; : column의 간격을 숫자px로 
+      
+      <영역 이름으로 그리드 정의>
+      grid-template-areas:
+		"header header header"
+		"   a    main    b   "
+		"   .     .      .   "
+		"footer footer footer";
+     * 각 셀마다 공백을 하나씩 넣어 구분, 빈칸은 마침표 또는 "none"을 사용 
+     * 각 영역의 이름 매칭 : .header { grid-area: header; }
+		            .sidebar-a { grid-area: a; }
+                            .main-content { grid-area: main; }
+                            .sidebar-b { grid-area: b; }
+                            .footer { grid-area: footer; }
+			    
+       <세로축 방향 정렬 설정>
+        align-items: stretch; : 기본 
+	align-items: start;   : 시작점을 처음으로 정렬
+	align-items: center;  : 가운데 정렬 
+        align-items: end;     : 끝쪽으로 정렬 
+	
+	<가로축 방향 정렬 설정>
+	justify-items: stretch; : 기본
+	justify-items: start;   : 시작점을 기준으로 정렬
+	justify-items: center;  : 중간으로 정렬 
+	justify-items: end;     : 끝쪽으로 정렬 
+	
+	* 두개 동시에 쓸 수 있는 단축 속성: place-items
+	
+	<개별 아이템 세로축 방향 정렬>
+	.item{ align-self: stretch;
+	       align-self: start;
+	       align-self: center;
+	       align-self: end;
+        <개별 아이템 가로축 방향 정렬>      
+ 	.item{ justify-self: stretch;
+	       justify-self: start;
+	      justify-self: center;
+	      justify-self: end;
+	       
+![image](https://github.com/dkun00/likelion/assets/130130329/b1678f29-51b8-43f1-b9ec-fba25bd07821)
+![image](https://github.com/dkun00/likelion/assets/130130329/059a9d74-1e88-461f-a702-af5c55a4d379)
+
+
